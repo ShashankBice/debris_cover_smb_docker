@@ -13,8 +13,8 @@ dependencies:
   - tornado=6.0
   - bokeh=1.4
   - python-graphviz=0.13
-  - pip=19.3
-  - python
+  - pip
+  - python=3.9
   - scipy
   - scikit-image
   - numpy
@@ -54,6 +54,7 @@ dependencies:
     - multiprocess
     - p-tqdm
     - ppft
+    - chardet
     # geospatial+plotting
     - "--editable=git+https://github.com/dshean/pygeotools.git#egg=pygeotools"
     - "--editable=git+https://github.com/dshean/demcoreg.git#egg=demcoreg"
