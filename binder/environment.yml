@@ -1,5 +1,5 @@
 # packages in addition to repo2docker/buildpacks/conda/environment.yml
-name: isce2
+name: notebook
 channels:
   - conda-forge
 dependencies:
@@ -14,3 +14,49 @@ dependencies:
   - bokeh=1.4
   - python-graphviz=0.13
   - pip=19.3
+  - python
+  - scipy
+  - scikit-image
+  - numpy
+  - pandas
+  - matplotlib
+  - astropy
+  - beautifulsoup4
+  - bokeh
+  - bzip2 
+  - cairo 
+  - cartopy
+  - jupyterlab 
+  - ipympl
+  - wget 
+  - requests
+  - urllib3
+  - xmltodict
+  
+ # geospatial (raster+vector)
+  - gdal
+  - rasterio
+  - geopandas
+  - pygeos
+  - shapely
+  - contextily
+  - descartes
+  - affine
+  - earthaccess
+  - xdem
+  - arosics
+  - pip
+  - psutil
+  - pip:
+    - geojson
+    - matplotlib-colorbar
+    - matplotlib-scalebar
+    - multiprocess
+    - p-tqdm
+    - ppft
+    # geospatial+plotting
+    - "--editable=git+https://github.com/dshean/pygeotools.git#egg=pygeotools"
+    - "--editable=git+https://github.com/dshean/demcoreg.git#egg=demcoreg"
+    - "--editable=git+https://github.com/ShashankBice/imview.git@jglac#egg=imview"
+    - "--editable=git+https://github.com/ShashankBice/debris_cover_smb.git#egg=debris_cover_smb"
+
