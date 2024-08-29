@@ -3,21 +3,21 @@ name: notebook
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=1.2
-  - jupyterhub=1.0
-  - jupyter-server-proxy=1.1
-  - nbgitpuller=0.7
-  - dask=2.8
-  - distributed=2.8
-  - dask-labextension=1.0
-  - tornado=6.0
-  - bokeh=1.4
-  - python-graphviz=0.13
+  - jupyterlab
+  - jupyterhub
+  - jupyter-server-proxy
+  - nbgitpuller
+  - dask
+  - distributed
+  - dask-labextension
+  - tornado
+  - bokeh
+  - python-graphviz
   - pip
   - python=3.9
   - scipy
   - scikit-image
-  - numpy
+  - numpy=1.23.5
   - pandas
   - matplotlib
   - astropy
