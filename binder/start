@@ -1,0 +1,8 @@
+#!/bin/bash -l
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+export IMAGECONFIG='https://github.com/ShashankBice/debris_cover_smb_docker'
+export PATH=${PATH}:/srv/StereoPipeline/bin
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+exec "$@"
