@@ -56,8 +56,8 @@ dependencies:
     - ppft
     - chardet
     # geospatial+plotting
-    - "--editable=git+https://github.com/dshean/pygeotools.git#egg=pygeotools"
-    - "--editable=git+https://github.com/dshean/demcoreg.git#egg=demcoreg"
-    - "--editable=git+https://github.com/ShashankBice/imview.git@jglac#egg=imview"
-    - "--editable=git+https://github.com/uw-cryo/debris_cover_smb.git#egg=debris_cover_smb"
+    - git+https://github.com/dshean/pygeotools.git
+    - git+https://github.com/dshean/demcoreg.git
+    - git+https://github.com/ShashankBice/imview.git@jglac 
+    - git+https://github.com/uw-cryo/debris_cover_smb.git 
 
